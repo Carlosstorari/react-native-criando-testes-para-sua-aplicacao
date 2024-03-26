@@ -8,7 +8,7 @@ import { formataMaiorLanceDoLeilao } from '../../../negocio/formatadores/lance';
 
 export default function Topo({ nome, descricao, lances, valorInicial, cor, icone }) {
   const maiorLance = formataMaiorLanceDoLeilao(lances, valorInicial);
-
+  //console.log(`MAIOR LANCE: ${maiorLance} LANCES: ${lances} VALOR INICIAL: ${valorInicial}`)
   return <>
     <Icone cor={cor} nome={icone} style={estilos.topo} />
     <View style={estilos.info}>

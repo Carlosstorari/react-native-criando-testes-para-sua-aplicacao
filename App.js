@@ -10,8 +10,9 @@ export default function App() {
       <StatusBar />
       <KeyboardAvoidingView 
         style={estilos.teclado}
-        keyboardVerticalOffset={Platform.OS === 'ios' ? 0 : 45}
-        behavior={Platform.OS === "ios" ? "padding" : "height"}>
+        // keyboardVerticalOffset={Platform.OS === 'ios' ? 0 : 45}
+        // behavior={Platform.OS === "ios" ? "padding" : "height"}
+        >
         <AppRotas />
       </KeyboardAvoidingView>
     </SafeAreaView>
